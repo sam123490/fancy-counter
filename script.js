@@ -28,7 +28,7 @@ const incrementCounter = () => {
     //set counter element with new value
     counterValueEl.textContent = newValue;
     increaseButtonEl.blur();
-}
+};
 
 increaseButtonEl.addEventListener('click', incrementCounter);
 // you can press any button to increase the value as well
@@ -61,5 +61,5 @@ function resetCounterValue() {
     increaseButtonEl.disabled = false;
     decreaseButtonEl.disabled = false;
     resetButtonEl.blur();
-}
+};
 resetButtonEl.addEventListener('click', resetCounterValue);
